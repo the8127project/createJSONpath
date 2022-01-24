@@ -1,7 +1,7 @@
 import json
 from os import listdir
 from os.path import isfile, join
-
+#
 def process_filelist(pathtofiles, prefix = 't', solid = 10, hurtlevel = 0, enemy=0, collect = 0, food = 0, heart= 0):
     id = 0
     object = []
