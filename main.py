@@ -29,6 +29,7 @@ def process_filelist(pathtofiles, prefix = 't', solid = 10, hurtlevel = 0, enemy
     return(object)
 
 objectlist = []
+
 background_object = []
 #generate background
 background_object.append({"id":"level0", "path": "../LevelEditor/pngs/worlds/castle/background/Bright/Background.png"})
