@@ -1,7 +1,7 @@
 import json
 from os import listdir
 from os.path import isfile, join
-
+#
 def create_copy_command():
     path = '../LevelEditor/pngs/characters/good'
     onlydir = [f for f in sorted(listdir(path)) if not isfile(join(path, f))]
